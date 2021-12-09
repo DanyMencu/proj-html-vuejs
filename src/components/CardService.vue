@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/Variables';
 
 .service_card {
     position: relative;
@@ -58,7 +59,7 @@ export default {
     }
 
     &:hover {
-        background: linear-gradient(180deg, rgb(13, 28, 94) 0%, rgba(6,12,64,1) 90%, rgba(1,1,47,1) 100%);
+        background: $blue_to_bottom;
         color: #FFFFFF;
     }
 
@@ -82,6 +83,7 @@ export default {
 
     &:hover .arrow_icon {
         opacity: 1;
+        color: #FFFFFF;
     }
 }
 </style>

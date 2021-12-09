@@ -1,3 +1,5 @@
+@import '@/styles/Variables';
+
 /* BUTTONS */
 .button {
     border: 0;
@@ -19,7 +21,11 @@
 
 .btn_blue {
     color: #FFFFFF;
-    background: linear-gradient(270deg, rgba(30,60,128,1) 0%, rgba(4,163,207,1) 100%);
+    background: $lightblue_to_left;
+
+    &:hover {
+        background: $red_to_right;
+    }
 }
 
 .btn_white {
@@ -28,37 +34,42 @@
 
 .button.red_right_bottom {
     transition: box-shadow 0.2s;
+
+    &:hover {
+        box-shadow: 0px 0px 15px 5px rgba(247, 97, 107, 0.4);
+    } 
 }
 
-.button.red_right_bottom:hover {
-    box-shadow: 0px 0px 15px 5px rgba(247, 97, 107, 0.4);
-} 
 
 /* BACKGROUND */
 
 .red_right {
     color: #FFFFFF;
-    background: linear-gradient(270deg, rgba(247,97,106,1) 0%, rgba(183,37,110,1) 100%);
+    background: $red_to_right;
+}
+
+.button.red_right:hover {
+    background: $lightblue_to_left;
 }
 
 .red_bottom {
     color: #FFFFFF;
-    background: linear-gradient(180deg, rgba(184,39,110,1) 0%, rgba(242,94,108,1) 100%);
+    background: $red_to_bottom;
 }
 
 .red_right_bottom {
     color: #FFFFFF;
-    background: linear-gradient(135deg, rgba(184,39,110,1) 0%, rgba(214,68,109,1) 40%, rgba(242,94,108,1) 100%);
+    background: $red_to_right_bottom;
 }
 
 .blue_bottom {
-    background: linear-gradient(180deg, rgba(11,24,82,1) 0%, rgba(6,12,64,1) 70%, rgba(1,1,47,1) 100%);
+    background: $blue_to_bottom;
 }
 
 .blue_top_left {
-    background: linear-gradient(315deg, rgba(11,24,82,1) 0%, rgba(6,12,64,1) 25%, rgba(1,1,47,1) 100%);
+    background: $blue_to_top_left;
 }
 
 .blue_right {
-    background: linear-gradient(90deg, rgba(11,24,82,1) 0%, rgba(6,12,64,1) 65%, rgba(1,1,47,1) 100%);
+    background: $blue_to_right;
 }

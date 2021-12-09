@@ -28,6 +28,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/Variables';
+
 .container {
     padding: 6rem 0 5rem;
 

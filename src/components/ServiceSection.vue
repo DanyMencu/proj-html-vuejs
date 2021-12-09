@@ -60,6 +60,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/Variables';
+
 .header_section {
     padding-bottom: 6rem;
 
