@@ -2,7 +2,9 @@
   <div id="app">
       <Header />
 
-      <!-- Main -->
+      <main>
+        <Hero />
+      </main>
 
       <Footer />
   </div>
@@ -10,12 +12,14 @@
 
 <script>
 import Header from './components/Header.vue';
+import Hero from './components/Hero.vue';
 import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
+    Hero,
     Footer,
   }
 }
@@ -23,5 +27,6 @@ export default {
 
 <style lang="scss">
 @import '@/styles/Globals';
+@import '@/styles/Utilities';
 
 </style>
