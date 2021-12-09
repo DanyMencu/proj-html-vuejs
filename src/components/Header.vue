@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar fixed-top">
+    <nav class="navbar">
         <div class="container pt-2">
             <div class="row w-100">
                 <div class="col-6">
@@ -32,7 +32,10 @@ export default {
 
 <style scoped lang="scss">
 .navbar {
-    background-color: #00000028;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 a {
