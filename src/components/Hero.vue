@@ -33,7 +33,7 @@ export default {
     background: #040839;
 
     .container {
-        padding: 5rem 0 4rem;
+        padding: 6rem 0 5rem;
 
         img {
             width: 100%;

@@ -4,6 +4,8 @@
 
       <main>
         <Hero />
+
+        <ServiceSection />
       </main>
 
       <Footer />
@@ -13,6 +15,7 @@
 <script>
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import ServiceSection from './components/ServiceSection.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -20,6 +23,7 @@ export default {
   components: {
     Header,
     Hero,
+    ServiceSection,
     Footer,
   }
 }

@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar fixed-top">
-        <div class="container">
+        <div class="container pt-2">
             <div class="row w-100">
                 <div class="col-6">
                     <a href="#">
@@ -31,6 +31,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.navbar {
+    background-color: #00000028;
+}
 
 a {
     text-decoration: none;
