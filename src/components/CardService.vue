@@ -1,13 +1,16 @@
 <template>
-    <a href="#">
+    <div href="#">
         <div class="service_card">
             <div class="img_card">
                 <img :src="image" :alt="title">
             </div>
             <h4>{{ title }}</h4>
             <p>{{ text }}</p>
+            <a href="#" class="arrow_icon red_right d-flex justify-content-center align-items-center">
+                <i class="fas fa-arrow-right"></i>
+            </a>
         </div>
-    </a>
+    </div>
 </template>
 
 <script>
@@ -23,13 +26,19 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .service_card {
     position: relative;
     text-align: center;
     border-radius: 14px;
     padding: 120px 15px 10px;
     font-size: 14px;
+    cursor: default;
     transition: all 0.4s;
+
+    h4 {
+        margin-top: 2rem;
+    }
 
     .img_card {
         position: absolute;
@@ -49,12 +58,30 @@ export default {
     }
 
     &:hover {
-        background-color: #040839;
+        background: linear-gradient(180deg, rgb(13, 28, 94) 0%, rgba(6,12,64,1) 90%, rgba(1,1,47,1) 100%);
         color: #FFFFFF;
     }
 
     &:hover .img_card {
         box-shadow: 0px 0px 10px 0px #BBBBBB;
+    }
+
+    .arrow_icon {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 35px;
+        height: 35px;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 50%;
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+
+    &:hover .arrow_icon {
+        opacity: 1;
     }
 }
 </style>

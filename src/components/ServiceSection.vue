@@ -14,6 +14,8 @@
                     :text="element.text"
                 />
             </div>
+
+            <button class="button button_lg red_right_bottom">View All Service</button>
         </div>
     </div>
   </section>
@@ -75,8 +77,8 @@ export default {
     }
 }
 
-a {
-    text-decoration: none;
-    color: #000000;
+button {
+    margin: 80px auto;
 }
+
 </style>
