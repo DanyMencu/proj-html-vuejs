@@ -1,7 +1,7 @@
 <template>
 
 <div class="col-3 post "
-    :class="ActiveIndex === index ? 'active' : false"
+    :class="{active:index == ActiveIndex}"
 >
     <div class="content">
         <div class="date_author">
@@ -19,7 +19,7 @@
     <div>
         <button 
             class="button button_md btn_white"
-            @click="SetActiveIndex(index)"
+            @click="ActiveIndex = index"
         >
             Read More
         </button>
@@ -42,21 +42,18 @@ export default {
         date: String,
         index: Number,
     },
-    created() {
-        this.SetActiveIndex();
-    },
     data() {
         return {
             ActiveIndex: 0,
         }
     },
     methods: {
-        SetActiveIndex(index) {
-            this.ActiveIndex = index;
-        }
+
     },
 }
 </script>
+
+//* :class="ActiveIndex === index ? 'active' : false" @click="SetActiveIndex(index)"
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
