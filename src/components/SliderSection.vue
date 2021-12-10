@@ -1,7 +1,7 @@
 <template>
     <section class="py-5">
         <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
+            <div class="row justify-content-between align-items-center">
                 <div class="col-2">
                     <span>Portfolio</span>
                     <p><strong>Lastest</strong> work</p>
@@ -16,12 +16,13 @@
                 </div>
             </div>
         </div>
+        <!-- Project portfolio SLIDER -->
         <div class="card_container">
             <CardPortfolio
                 v-for="(element, index) in Porfolio" :key="`element-${index}`"
-                    :image="element.image"
-                    :title="element.title"
-                    :text="element.text"
+                :image="element.image"
+                :title="element.title"
+                :text="element.text"
             />
         </div>
     </section>
@@ -29,7 +30,6 @@
 
 <script>
 import CardPortfolio from '@/components/CardPortfolio.vue'
-
 
 export default {
     name: 'SliderSection',

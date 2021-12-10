@@ -1,11 +1,12 @@
 <template>
   <section class="blue_bottom">
     <div class="container">
-        <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-4">
-                <img src="../assets/men-data.png" alt="Project image">
+        <div class="row justify-content-between align-items-center">
+            <div class="img_container col-4">
+                <img src="../assets/nemoodar.png" alt="Graphic image">
+                <img class="over_img" src="../assets/men-data.png" alt="Project image">
             </div>
-            <div class="col-5">
+            <div class="col-5 pt-5">
                 <strong>Start Your Project</strong>
                 <ul>
                     <li><strong>Grow Your Business</strong></li>
@@ -31,8 +32,18 @@ export default {
 @import '@/styles/Variables';
 
 .container {
-    padding: 6rem 0 5rem;
+    padding: 6rem 0 13rem;
     color: #FFFFFF;
+
+    .img_container {
+        position: relative;
+
+        .over_img {
+            position: absolute;
+            top: 20%;
+            left: 0;
+        }
+    }
 
     img {
         width: 100%;

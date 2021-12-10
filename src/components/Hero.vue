@@ -1,7 +1,7 @@
 <template>
     <div class="blue_bottom">
         <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
+            <div class="row justify-content-between align-items-center">
                 <div class="col-4">
                     <ul>
                         <li><strong>Business Planning</strong></li>

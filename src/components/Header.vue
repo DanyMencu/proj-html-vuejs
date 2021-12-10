@@ -31,6 +31,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/styles/Variables';
+
 .navbar {
     position: absolute;
     top: 0;
@@ -42,6 +44,8 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 
-
+    &:hover {
+        color: $secondary_red;
+    }
 }
 </style>

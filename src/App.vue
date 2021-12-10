@@ -10,6 +10,8 @@
         <ProjectSection />
 
         <SliderSection />
+
+        <PriceSection />
       </main>
 
       <Footer />
@@ -22,6 +24,7 @@ import Hero from './components/Hero.vue';
 import ServiceSection from './components/ServiceSection.vue';
 import ProjectSection from './components/ProjectSection.vue';
 import SliderSection from './components/SliderSection.vue';
+import PriceSection from './components/PriceSection.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -32,6 +35,7 @@ export default {
     ServiceSection,
     ProjectSection,
     SliderSection,
+    PriceSection,
     Footer,
   }
 }

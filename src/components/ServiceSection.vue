@@ -14,7 +14,6 @@
                     :text="element.text"
                 />
             </div>
-
             <button class="button button_lg red_right_bottom">View All Service</button>
         </div>
     </div>
