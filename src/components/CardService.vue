@@ -71,14 +71,8 @@ export default {
         position: absolute;
         top: 100%;
         left: 50%;
-        width: 35px;
-        height: 35px;
         transform: translate(-50%, -50%);
-        text-decoration: none;
-        font-size: 18px;
-        border-radius: 50%;
         opacity: 0;
-        transition: opacity 0.2s;
     }
 
     &:hover .arrow_icon {

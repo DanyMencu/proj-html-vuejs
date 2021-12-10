@@ -8,6 +8,8 @@
         <ServiceSection />
 
         <ProjectSection />
+
+        <SliderSection />
       </main>
 
       <Footer />
@@ -19,6 +21,7 @@ import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
 import ServiceSection from './components/ServiceSection.vue';
 import ProjectSection from './components/ProjectSection.vue';
+import SliderSection from './components/SliderSection.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -28,6 +31,7 @@ export default {
     Hero,
     ServiceSection,
     ProjectSection,
+    SliderSection,
     Footer,
   }
 }
