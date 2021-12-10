@@ -12,6 +12,8 @@
         <SliderSection />
 
         <PriceSection />
+
+        <Blog />
       </main>
 
       <Footer />
@@ -25,6 +27,7 @@ import ServiceSection from './components/ServiceSection.vue';
 import ProjectSection from './components/ProjectSection.vue';
 import SliderSection from './components/SliderSection.vue';
 import PriceSection from './components/PriceSection.vue';
+import Blog from './components/Blog.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -36,6 +39,7 @@ export default {
     ProjectSection,
     SliderSection,
     PriceSection,
+    Blog,
     Footer,
   }
 }
