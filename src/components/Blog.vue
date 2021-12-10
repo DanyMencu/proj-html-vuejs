@@ -1,6 +1,7 @@
 <template>
     <section>
         <div class="container">
+          <!-- Header section -->
             <div class="row justify-content-center align-items-center">
                 <div class="col-6 text-center header_section">
                     <span>Blog</span>
@@ -67,7 +68,7 @@ export default {
 @import '@/styles/Variables';
 
 section {
-    padding: 16rem 0 3rem;
+    padding: 16rem 0 6rem;
 
     .header_section {
         padding-bottom: 2rem;

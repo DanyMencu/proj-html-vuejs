@@ -2,6 +2,7 @@
   <section class="py-5">
     <div class="container">
         <div class="row">
+          <!-- Header section -->
             <div class="col-12 text-center header_section">
                 <span>Our Services</span>
                 <p class="text"><strong>What</strong> We Do</p>

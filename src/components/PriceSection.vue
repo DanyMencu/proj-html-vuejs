@@ -2,6 +2,7 @@
   <section>
       <div class="container">
             <div class="row justify-content-around align-items-center">
+                <!-- Header section -->
                 <div class="col-12 text-center header_section">
                     <span>Price List</span>
                     <p class="text"><strong>Our</strong> Pricing</p>

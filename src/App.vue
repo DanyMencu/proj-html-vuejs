@@ -14,6 +14,8 @@
         <PriceSection />
 
         <Blog />
+
+        <ReviewsSection />
       </main>
 
       <Footer />
@@ -28,6 +30,7 @@ import ProjectSection from './components/ProjectSection.vue';
 import SliderSection from './components/SliderSection.vue';
 import PriceSection from './components/PriceSection.vue';
 import Blog from './components/Blog.vue';
+import ReviewsSection from './components/ReviewsSection.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -40,6 +43,7 @@ export default {
     SliderSection,
     PriceSection,
     Blog,
+    ReviewsSection,
     Footer,
   }
 }
