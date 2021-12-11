@@ -64,7 +64,7 @@ section {
     padding: 1.5rem 0 2rem;
 
     .header_section {
-        height: 60vh;
+        padding-bottom: 15rem;
         color: #FFFFFF;
 
         span {

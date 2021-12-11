@@ -49,8 +49,8 @@ export default {
 
     .background_number {
         position: absolute;
-        left: 16%;
-        bottom: 44%;
+        left: 10%;
+        bottom: 35%;
         font-size: 250px;
         font-weight: 600;
         opacity: 0.1;
