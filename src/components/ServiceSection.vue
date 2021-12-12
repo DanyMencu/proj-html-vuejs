@@ -1,5 +1,5 @@
 <template>
-  <section class="py-5">
+  <section class=" py-5">
     <div class="container">
         <div class="row">
           <!-- Header section -->

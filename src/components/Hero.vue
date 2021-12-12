@@ -1,5 +1,5 @@
 <template>
-    <div class="blue_bottom">
+    <hero class="blue_bottom ">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-4">
@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </hero>
 </template>
 
 <script>

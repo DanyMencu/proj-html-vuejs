@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="">
       <div class="container">
             <div class="row justify-content-around align-items-center">
                 <!-- Header section -->
