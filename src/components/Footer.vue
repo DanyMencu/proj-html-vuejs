@@ -1,5 +1,18 @@
 <template>
     <footer >
+        <!-- Email address section -->
+        <div class="email_section container">
+            <div class="row align-items-center">
+                <div class="col-7">
+                    <h3>We Offer Awesome Services</h3>
+                    <p>When, While lovelyteems vapour around meand meridians sun strikes the upper surface.</p>
+                </div>
+                <div class="col-5 input_section">
+                    <input class="text_area" type="email" placeholder="Enter Your Email Address">
+                    <button class="button button_lg btn_blue">Subscripe</button>
+                </div>
+            </div>
+        </div>
         <!-- Links and contact -->
         <div class="container" id="contact-section">
             <div class="row">
@@ -148,7 +161,7 @@ export default {
 <style scoped lang="scss">
 @import '@/styles/Variables';
 footer {
-    padding: 5rem 0 0;
+    padding: 7rem 0 0;
     background: $blue_to_left;
     color: #AAAAAA;
     font-size: 14px;
@@ -177,9 +190,62 @@ footer {
             color: currentColor;
         }
     }
+
+    .email_section {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        padding: 2.5rem 1rem;
+        background: $red_to_right;
+        border-radius: 20px;
+        transform: translate(-50%, -50%);
+
+        h3 {
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        .input_section {
+            position: relative;
+
+            button {
+                position: absolute;
+                right: 3%;
+                top: 12%;
+                border-radius: 20px;
+            }
+
+            .text_area {
+                border-radius: 20px;
+                width: 100%;
+                padding: 0.375rem 0.75rem;
+                line-height: 1.5;
+                border: 1px solid #ced4da;
+                appearance: none;
+                font-size: 1rem;
+                font-weight: 400;
+                color: currentColor;
+                
+                &::placeholder {
+                    color: #AAAAAA;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+    }
+
     .image_container {
         padding-bottom: 3rem;
     }
+
     .socials {
         margin-top: 4rem;
         padding: 1.5rem 0 2rem;
