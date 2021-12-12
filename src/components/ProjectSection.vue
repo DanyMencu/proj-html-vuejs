@@ -1,5 +1,5 @@
 <template>
-  <section class="blue_bottom ">
+  <section class="blue_bottom">
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="img_container col-4">
@@ -24,42 +24,34 @@
 <script>
 export default {
     name: 'ProjectSection',
-
 }
 </script>
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 .container {
     padding: 6rem 0 13rem;
     color: #FFFFFF;
-
     .img_container {
         position: relative;
-
         .over_img {
             position: absolute;
             top: 20%;
             left: 0;
         }
     }
-
     img {
         width: 100%;
     }
-
     ul {
         font-size: 36px;
         list-style: none;
         padding-left: 0;
         padding-top: 15px;
     }
-
     p {
         color: #03A7D3E6;
         font-size: 14px;
     }
 }
-
 </style>

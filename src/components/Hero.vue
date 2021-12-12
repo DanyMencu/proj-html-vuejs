@@ -1,5 +1,5 @@
 <template>
-    <hero class="blue_bottom ">
+    <div class="blue_bottom">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-4">
@@ -17,37 +17,31 @@
                 </div>
             </div>
         </div>
-    </hero>
+    </div>
 </template>
 
 <script>
 export default {
     name: 'Hero',
-
 }
 </script>
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 .container {
     padding: 6rem 0 5rem;
-
     img {
         width: 100%;
     }
-
     ul {
         color: #FFFFFF;
         font-size: 36px;
         list-style: none;
         padding-left: 0;
     }
-
     p {
         color: #03A7D3E6;
         font-size: 14px;
     }
 }
-
 </style>

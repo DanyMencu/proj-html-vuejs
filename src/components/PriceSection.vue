@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section>
       <div class="container">
             <div class="row justify-content-around align-items-center">
                 <!-- Header section -->
@@ -26,7 +26,6 @@
 
 <script>
 import CardPrice from '@/components/CardPrice.vue'
-
 export default {
     name: 'PriceSection',
     components: {
@@ -58,33 +57,25 @@ export default {
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 section {
     background: $blue_to_right;
     padding: 1.5rem 0 2rem;
-
     .header_section {
         padding-bottom: 15rem;
         color: #FFFFFF;
-
         span {
             color: #B6246E;
             font-size: 12px;
         }
-
         .text {
                 font-size: 34px;
         }
-
         p {
             font-size: 14px;
         }
     }
 }
-
 .card_container {
     position: relative;
 }
-
-
 </style>

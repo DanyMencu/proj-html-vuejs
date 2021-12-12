@@ -1,5 +1,5 @@
 <template>
-    <section class="">
+    <section>
         <div class="container">
           <!-- Header section -->
             <div class="row justify-content-center align-items-center">
@@ -27,8 +27,6 @@
 
 <script>
 import CardPost from '@/components/CardPost.vue'
-
-
 export default {
     name: 'Blog',
     components: {
@@ -66,30 +64,23 @@ export default {
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 section {
     padding: 16rem 0 6rem;
-
     .header_section {
         padding-bottom: 2rem;
-
         span {
             color: #B6246E;
             font-size: 12px;
         }
-
         .text {
                 font-size: 34px;
         }
-
         p {
             font-size: 14px;
         }
     }
-
     .col-3 {
         display: flex;
     }
 }
-
 </style>

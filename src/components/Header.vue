@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar" id="header">
+    <nav class="navbar" id="top-section">
         <div class="container pt-2">
             <div class="row w-100">
                 <div class="col-6">
@@ -26,24 +26,20 @@
 <script>
 export default {
     name: 'Header',
-
 }
 </script>
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 .navbar {
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
 }
-
 a {
     text-decoration: none;
     color: #FFFFFF;
-
     &:hover {
         color: $secondary_red;
     }

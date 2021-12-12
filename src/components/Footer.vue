@@ -94,7 +94,7 @@
                                 <i :class="element.iconClass" class="socila_icon"></i>
                             </a>
                             <div class="arrow_icon">
-                                <a href="header">
+                                <a href="#top-section">
                                     <i class="fas fa-arrow-up"></i>
                                 </a>
                             </div>
@@ -147,7 +147,6 @@ export default {
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 footer {
     padding: 5rem 0 0;
     background: $blue_to_left;
@@ -160,46 +159,37 @@ footer {
         text-decoration: none;
         color: #FFFFFF;
     }
-
     h5,
     strong {
         color: #FFFFFF;
     }
-
     h5 {
         font-size: 16px;
         font-weight: 600;
+        pointer-events: none;
     }
-
     ul {
         list-style: none;
-
         li {
             padding: 0.5rem 0;
         }
-
         a {
             color: currentColor;
         }
     }
-
     .image_container {
         padding-bottom: 3rem;
     }
-
     .socials {
         margin-top: 4rem;
         padding: 1.5rem 0 2rem;
         border-top: 1px solid #AAAAAA;
-
         .social {
             padding-right: 2rem;
             position: relative;
-
             .socila_icon:hover {
                 transform: scale(1.3);
             }
-
             .arrow_icon {
                 position: absolute;
                 left: 100%;
@@ -212,15 +202,12 @@ footer {
                 &:hover {
                     transform: scale(1.1);
                 }
-
                 * {
                     color: #000000;
                     font-size: 14px;
                 }
             }
         }
-
-
         .chat {
             display: flex;
             justify-content: center;
@@ -238,5 +225,4 @@ footer {
         }
     }
 }
-
 </style>

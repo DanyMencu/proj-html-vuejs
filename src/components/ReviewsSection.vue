@@ -1,5 +1,5 @@
 <template>
-    <section class="">
+    <section>
         <div class="container">
           <!-- Header section -->
             <div class="row justify-content-center align-items-center">
@@ -40,7 +40,6 @@
 
 <script>
 import CardReview from '@/components/CardReview.vue'
-
 export default {
     name: 'ReviewsSection',
     components: {
@@ -95,40 +94,31 @@ export default {
             ],
         }
     },
-
 }
 </script>
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 section {
     padding: 1rem 0 5rem;
-
     .header_section {
         padding-bottom: 2rem;
-
         span {
             color: #B6246E;
             font-size: 12px;
         }
-
         .text {
                 font-size: 34px;
         }
-
         p {
             font-size: 14px;
         }
     }
-
     .reviews {
         padding: 0.5rem 0 3rem;
     }
-
     .partners {
         padding: 4rem 0 6rem;
     }
 }
-
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class=" py-5">
+  <section class="py-5">
     <div class="container">
         <div class="row">
           <!-- Header section -->
@@ -23,7 +23,6 @@
 
 <script>
 import CardService from '@/components/CardService.vue'
-
 export default {
     name: 'ServiceSection',
         components: {
@@ -55,32 +54,25 @@ export default {
             ],
         }
     },
-
 }
 </script>
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
-
 .header_section {
     padding-bottom: 6rem;
-
     span {
         color: #B6246E;
         font-size: 12px;
     }
-
     .text {
         font-size: 34px;
     }
-
     p {
         font-size: 14px;
     }
 }
-
 button {
     margin: 80px auto;
 }
-
 </style>
