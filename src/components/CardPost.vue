@@ -48,12 +48,9 @@ export default {
         }
     },
     methods: {
-
     },
 }
 </script>
-
-//* :class="ActiveIndex === index ? 'active' : false" @click="SetActiveIndex(index)"
 
 <style scoped lang="scss">
 @import '@/styles/Variables';
