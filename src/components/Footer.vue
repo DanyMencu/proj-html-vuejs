@@ -188,6 +188,10 @@ footer {
         }
         a {
             color: currentColor;
+
+            &:hover {
+                color: #FFFFFF;
+            }
         }
     }
 
