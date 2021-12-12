@@ -1,7 +1,7 @@
 <template>
-    <footer class="">
+    <footer >
         <!-- Links and contact -->
-        <div class="container">
+        <div class="container" id="contact-section">
             <div class="row">
                 <div class="col-3">
                     <div class="image_container">

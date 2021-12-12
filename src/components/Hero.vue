@@ -1,5 +1,5 @@
 <template>
-    <div class="blue_bottom">
+    <div class="blue_bottom" id="top-section">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-4">

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar" id="top-section">
+    <nav class="navbar fixed-top">
         <div class="container pt-2">
             <div class="row w-100">
                 <div class="col-6">
@@ -8,12 +8,12 @@
                     </a>
                 </div>
                 <div class="col-6 d-flex justify-content-between align-items-center">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Portfolio</a>
+                    <a href="#top-section">Home</a>
+                    <a href="#project-section">About</a>
+                    <a href="#service-section">Services</a>
+                    <a href="#blog-section">Blog</a>
+                    <a href="#contact-section">Contact</a>
+                    <a href="#portfolio-section">Portfolio</a>
                     <a href="#">
                         <button class="button button_sm btn_blue">Sing In</button>
                     </a>
@@ -32,10 +32,7 @@ export default {
 <style scoped lang="scss">
 @import '@/styles/Variables';
 .navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+    background: #0a164ff5;
 }
 a {
     text-decoration: none;

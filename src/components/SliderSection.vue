@@ -1,5 +1,5 @@
 <template>
-    <section class="py-5">
+    <section class="py-5" id="portfolio-section">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-2">

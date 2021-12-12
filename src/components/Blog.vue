@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="blog-section">
         <div class="container">
           <!-- Header section -->
             <div class="row justify-content-center align-items-center">
