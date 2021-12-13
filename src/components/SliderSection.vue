@@ -20,11 +20,18 @@
         <!-- Project portfolio SLIDER -->
         <div class="card_container">
             <CardPortfolio
-                v-for="(element, index) in Porfolio" :key="`element-${index}`"
+                v-for="(element, index) in Portfolio" :key="`element-${index}`"
                 :image="element.image"
                 :title="element.title"
                 :text="element.text"
             />
+        </div>
+        <!-- Dot counter slide -->
+        <div class="d-flex justify-content-center align-items-center pt-5">
+            <i
+                v-for="(element, index) in Portfolio" :key="`Dot-${index}`"
+                class="fas fa-circle dot px-1"
+            ></i>
         </div>
     </section>
 </template>
@@ -39,7 +46,7 @@ export default {
     },
     data() {
         return {
-            Porfolio: [
+            Portfolio: [
                 {
                     image:require('@/assets/a247b00b-3621-470f-b4b8-b3ac46f25907-1-790x576.jpg'),
                     title:'Purinky Products',
@@ -77,6 +84,15 @@ export default {
 @import '@/styles/Variables';
 section {
     background: #02023011;
+
+    .dot {
+        font-size: 8px;
+        color: $gray;
+
+        &:first-child {
+            color: $primary_red;
+        }
+    }
     }
 
 .container {
