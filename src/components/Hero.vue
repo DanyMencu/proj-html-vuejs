@@ -2,6 +2,7 @@
     <div class="blue_bottom" id="top-section">
         <div class="container">
             <div class="row justify-content-between align-items-center">
+                <!-- Content section -->
                 <div class="col-4">
                     <ul>
                         <li><strong>Business Planning</strong></li>
@@ -12,6 +13,7 @@
                     <button class="button button_md red_right">Try it Now</button>
                     <button class="button button_md btn_blue ms-3">Explore More</button>
                 </div>
+                <!-- Image section -->
                 <div class="col-5">
                     <img src="../assets/header.png" alt="Hero image">
                 </div>
@@ -34,14 +36,14 @@ export default {
         width: 100%;
     }
     ul {
-        color: #FFFFFF;
+        color: $white;
         font-size: 36px;
         list-style: none;
         padding-left: 0;
     }
     p {
         color: #03A7D3E6;
-        font-size: 14px;
+        font-size: $regular;
     }
 }
 </style>

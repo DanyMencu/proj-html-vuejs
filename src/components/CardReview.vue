@@ -1,9 +1,11 @@
 <template>
 <div class="col-4 ">
     <div class="review">
+    <!-- Img Profile -->
     <div class="img_profile">
         <img :src="image" :alt="author">
     </div>
+    <!-- Strars -->
     <div class="rating">
         <i class="fas fa-star"
             v-for="(n, index) in rating" :key="`Voto pieno n-${index}`"

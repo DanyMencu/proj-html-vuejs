@@ -65,7 +65,7 @@ export default {
     .category {
 
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: $small;
     }
 
     .price {
@@ -80,7 +80,7 @@ export default {
     }
 
     .renewal {
-        font-size: 12px;
+        font-size: $small;
     }
 
     ul {

@@ -24,6 +24,7 @@
                         When, While lovelyteems vapour aroundmeand meridians sun strikes the upper impenetrable
                     </p>
                 </div>
+                <!-- Links -->
                 <div class="col-3">
                     <ul>
                         <h5>Quick Links</h5>
@@ -44,6 +45,7 @@
                         </li>
                     </ul>
                 </div>
+                <!-- Resources -->
                 <div class="col-3 d-flex justify-content-center">
                     <h5>Resources</h5>
                     <ul class="pt-5">
@@ -74,6 +76,7 @@
                         </li>
                     </ul>
                 </div>
+                <!-- Contact -->
                 <div class="col-3">
                     <ul>
                         <h5>Contact Us</h5>
@@ -97,6 +100,7 @@
                     <div class="col-6">
                         &#169; 2020 Phlox. All Rights Reserved.
                     </div>
+                    <!-- Socials and chat -->
                     <div class="col-6 d-flex justify-content-end align-items-center">
                         <!-- Social icon -->
                         <div class="col-3 d-flex justify-content-between align-items-center social">
@@ -163,21 +167,21 @@ export default {
 footer {
     padding: 7rem 0 0;
     background: $blue_to_left;
-    color: #AAAAAA;
+    color: $gray;
     font-size: 14px;
     font-weight: 600;
     position: relative;
 
     a {
         text-decoration: none;
-        color: #FFFFFF;
+        color: $white;
     }
     h5,
     strong {
-        color: #FFFFFF;
+        color: $white;
     }
     h5 {
-        font-size: 16px;
+        font-size: $big;
         font-weight: 600;
         pointer-events: none;
     }
@@ -190,7 +194,7 @@ footer {
             color: currentColor;
 
             &:hover {
-                color: #FFFFFF;
+                color: $white;
             }
         }
     }
@@ -206,7 +210,7 @@ footer {
 
         h3 {
             font-weight: 800;
-            color: #FFFFFF;
+            color: $white;
         }
 
         p {
@@ -235,7 +239,7 @@ footer {
                 color: currentColor;
                 
                 &::placeholder {
-                    color: #AAAAAA;
+                    color: $gray;
                 }
 
                 &:focus {
@@ -253,7 +257,7 @@ footer {
     .socials {
         margin-top: 4rem;
         padding: 1.5rem 0 2rem;
-        border-top: 1px solid #AAAAAA;
+        border-top: 1px solid $gray;
         .social {
             padding-right: 2rem;
             position: relative;
@@ -266,15 +270,15 @@ footer {
                 bottom: 80%;
                 width: 35px;
                 height: 35px;
-                background: #FFFFFF;
-                border: 1px solid #000000;
+                background: $white;
+                border: 1px solid $black;
 
                 &:hover {
                     transform: scale(1.1);
                 }
                 * {
-                    color: #000000;
-                    font-size: 14px;
+                    color: $black;
+                    font-size: $regular;
                 }
             }
         }
@@ -285,7 +289,7 @@ footer {
             width: 55px;
             height: 55px;
             background-color: #527CEB;
-            color: #FFFFFF;
+            color: $white;
             border-radius: 50%;
             transform: rotateY(180deg);
             font-size: 22px;

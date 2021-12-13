@@ -1,9 +1,16 @@
 /* COLORS */
 
-/* RED */
+$white: #FFFFFF;
+
+$gray: #AAAAAA;
+
+$black: #000000;
+
 $primary_red: #B6246E;
 
 $secondary_red: #F9636B;
+
+/* LINEAR GRADIENT COLORS */
 
 $red_to_right: linear-gradient(270deg, rgba(247,97,106,1) 0%, rgba(183,37,110,1) 100%);
 
@@ -22,3 +29,11 @@ $blue_to_bottom: linear-gradient(180deg, rgba(11,24,82,1) 0%, rgba(6,12,64,1) 70
 $blue_to_top_left: linear-gradient(315deg, rgba(11,24,82,1) 0%, rgba(6,12,64,1) 25%, rgba(1,1,47,1) 100%);
 
 $blue_to_left: linear-gradient(90deg, rgba(1,1,47,1) 0%, rgba(6,12,64,1) 50%, rgba(11,24,82,1) 100%);
+
+/* FONT SIZE */
+
+$small: 12px;
+
+$regular: 14px;
+
+$big: 16px;

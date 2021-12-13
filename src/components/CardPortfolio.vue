@@ -51,7 +51,7 @@ export default {
 
     &:hover .title {
         transform: scale(1.05);
-        color: #FFFFFF;
+        color: $white;
     }
 
     &:hover .text {

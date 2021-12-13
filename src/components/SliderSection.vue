@@ -1,5 +1,6 @@
 <template>
     <section class="py-5" id="portfolio-section">
+        <!-- Header Section -->
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-2">
@@ -82,8 +83,8 @@ section {
     padding: 3rem 0;
 
     span {
-        color: #B6246E;
-        font-size: 12px;
+        color: $primary_red;
+        font-size: $small;
     }
 
     p {
@@ -102,7 +103,7 @@ section {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    font-size: 14px;
+    font-size: $regular;
 }
 
 </style>

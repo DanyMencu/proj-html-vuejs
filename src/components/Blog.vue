@@ -69,14 +69,14 @@ section {
     .header_section {
         padding-bottom: 2rem;
         span {
-            color: #B6246E;
-            font-size: 12px;
+            color: $primary_red;
+            font-size: $small;
         }
         .text {
                 font-size: 34px;
         }
         p {
-            font-size: 14px;
+            font-size: $regular;
         }
     }
     .col-3 {

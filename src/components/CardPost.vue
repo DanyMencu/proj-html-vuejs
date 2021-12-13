@@ -87,7 +87,7 @@ export default {
         font-size: 16px;
         .date_author {
             padding-bottom: 1rem;
-            font-size: 14px;
+            font-size: $regular;
 
             .dot {
                 font-size: 5px;

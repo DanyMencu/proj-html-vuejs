@@ -62,16 +62,16 @@ section {
     padding: 1.5rem 0 2rem;
     .header_section {
         padding-bottom: 15rem;
-        color: #FFFFFF;
+        color: $white;
         span {
-            color: #B6246E;
-            font-size: 12px;
+            color: $primary_red;
+            font-size: $small;
         }
         .text {
                 font-size: 34px;
         }
         p {
-            font-size: 14px;
+            font-size: $regular;
         }
     }
 }

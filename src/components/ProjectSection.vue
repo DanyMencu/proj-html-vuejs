@@ -2,10 +2,12 @@
   <section class="blue_bottom" id="project-section">
     <div class="container">
         <div class="row justify-content-between align-items-center">
+            <!-- Image section -->
             <div class="img_container col-4">
                 <img src="../assets/nemoodar.png" alt="Graphic image">
                 <img class="over_img" src="../assets/men-data.png" alt="Project image">
             </div>
+            <!-- Content area -->
             <div class="col-5 pt-5">
                 <strong>Start Your Project</strong>
                 <ul>
@@ -31,7 +33,7 @@ export default {
 @import '@/styles/Variables';
 .container {
     padding: 6rem 0 13rem;
-    color: #FFFFFF;
+    color: $white;
     .img_container {
         position: relative;
         .over_img {
@@ -51,7 +53,7 @@ export default {
     }
     p {
         color: #03A7D3E6;
-        font-size: 14px;
+        font-size: $regular;
     }
 }
 </style>

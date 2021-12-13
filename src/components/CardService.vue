@@ -33,7 +33,7 @@ export default {
     text-align: center;
     border-radius: 14px;
     padding: 120px 15px 10px;
-    font-size: 14px;
+    font-size: $regular;
     cursor: default;
     transition: all 0.4s;
 
@@ -60,7 +60,7 @@ export default {
 
     &:hover {
         background: $blue_to_bottom;
-        color: #FFFFFF;
+        color: $white;
     }
 
     &:hover .img_card {
@@ -77,7 +77,7 @@ export default {
 
     &:hover .arrow_icon {
         opacity: 1;
-        color: #FFFFFF;
+        color: $white;
     }
 }
 </style>
