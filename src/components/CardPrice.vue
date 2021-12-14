@@ -46,6 +46,8 @@ export default {
     border-radius: 20px;
     overflow: hidden;
     cursor: default;
+    box-shadow: 0px 0px 30px 0px #00000081;
+
 
     .background_number {
         position: absolute;
@@ -95,7 +97,6 @@ export default {
     &:hover {
         background: $red_to_right_bottom;
         color: #FFFFFF;
-        box-shadow: 0px 0px 30px 0px #00000081;
     }
 
     &:hover .button.red_right_bottom {
